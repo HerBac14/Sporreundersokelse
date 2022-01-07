@@ -1,0 +1,114 @@
+body {
+    background-color: whitesmoke;
+    font-family: Georgia, serif;
+}
+#hoved {
+    width: 60%;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: lightgray;
+    border: 1px solid #cccccc;
+}
+h1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #000000;
+}
+h2, h3 {
+    font-family: Arial, sans-serif;
+}
+p {
+    background-color: #e8e8e8;
+    padding: 10px;
+}
+#resultat {
+    margin: 20px 0;
+}
+.checkboxradio {
+    min-width: 130px;
+    width: 30%;
+}
+.checkboxradio > label {
+    display: ruby-base-container;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: #e4e4e4;
+    cursor: pointer;
+}
+button {
+    padding: 10px;
+    color: white;
+    text-shadow: 0 -1px 1px #335166;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), transparent);
+    background-color: #5588AA;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+button:active {
+    transform: translate(1px, 1px);
+}
+
+.undertekst {
+    background-color: whitesmoke;
+}
+
+.box {
+    position: absolute;
+    top: 1000px;
+    left: 50%;
+    width: 60%;
+    bottom: 100px;
+    transform: translate(-50%,-50%);
+    height: 300px;
+    background: transparent;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    display: flex;
+    padding: 40px;
+
+}
+
+.box .sporsmal {
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+
+.box .sporsmal .graf {
+    position: absolute;
+    width: 40px;
+    background: rgba(0,0,0,1);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50px);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.box .sporsmal .graf .prosent{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+.box .sporsmal .navn {
+    position: absolute;
+    bottom: 95%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    background: #5F6B73;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
